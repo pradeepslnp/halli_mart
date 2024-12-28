@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:halli_mart/components/CustomTextField%20.dart';
-import 'package:halli_mart/utils/textController.dart';
+import 'package:halli_mart/components/custom_text_field.dart';
+import 'package:halli_mart/utils/text_controller.dart';
 
-class LoginPage extends StatelessWidget with MixBusiness {
-  LoginPage({super.key});
+class LoginScreen extends StatelessWidget with MixBusiness {
+  LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
